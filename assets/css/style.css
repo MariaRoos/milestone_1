@@ -1,14 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap:100,200,300,400,500,600,700');
 
+/* -----------------------------------Colours */
+
+.bg-color-banner-top {
+    background-color: #3498db;
+}
+
+.bg-color-banner-bottom {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-home {
+    background-color: #5c5f89;
+}
+
+.ui-menu-color-pt {
+    background-color: #5c5f89;
+}
+
+.ui-menu-color-classes {
+    background-color: #5c5f89;
+}
+
+.ui-menu-color-join {
+    background-color: #5c5f89;
+}
 
 /* -----------------------------------Heading */
 
-.logo {
-    background-position: center;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+header {
+    margin: 0;
 }
 
-/* -----------------------------------Colours */
+.logo {
+    background: url("../images/LogoMakr-7eO2G8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 360px;
+}
+
+.banner-top {
+    height: 120px;
+}
+
+.banner-bottom {
+    height: 120px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #f4f4f4;
+    height: 120px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
