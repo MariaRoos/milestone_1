@@ -33,10 +33,11 @@ header {
 }
 
 .logo {
-    background: url("../images/LogoMakr-7eO2G8.png");
+    background: url("../images/LogoMakr-3OwTYZ.png");
     background-position: center;
     background-repeat: no-repeat;
     min-height: 360px;
+    background-color: #f4f4f4;
 }
 
 .banner-top {
@@ -52,11 +53,10 @@ header {
 }
 
 .menucontainer {
-    font-size: 0;
+    font-size: 0px;
 }
 
 #nav li {
-    font-size: 14px;
     padding: 0;
 }
 
