@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap:100,200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap:100,200,300,400,500,600,700');
 
 /* -----------------------------------Colours */
 
@@ -26,26 +27,57 @@
     background-color: #5c5f89;
 }
 
+/* -----------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4,
+h6, {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* -----------------------------------Heading */
 
 header {
     margin: 0;
 }
 
+
 .logo {
-    background: url("../images/LogoMakr-3OwTYZ.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 360px;
-    background-color: #f4f4f4;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    min-height: 120px;
+    color: #f4f4f4;
+    background-color: #5c5f89;
+}
+
+.hvr-logo:hover {
+    color: #4e3950;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .banner-top {
-    height: 120px;
+    height: 40px;
 }
 
 .banner-bottom {
-    height: 120px;
+    height: 40px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -65,7 +97,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 40px;
     text-align: center;
     padding: 0px;
 }
@@ -74,16 +106,17 @@ header {
     width: 100%;
     text-decoration: none;
     color: #f4f4f4;
-    height: 120px;
+    height: 40px;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 6px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 3px;
 }
 
@@ -91,5 +124,53 @@ header {
 
 .hvr-fade:hover {
     background-color: #4e3950;
-    height: 120px;
+    height: 40px;
+}
+
+/* -----------------------------------Footer */
+
+footer {
+    background-color: #5c5f89;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p span {
+  display: block;
+}
+
+.social-links li a i {
+    width: 25px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #4e3950;
+}
+
+/* -----------------------------------Index */
+
+.index-text {
+    font-style: italic;
+    text-align: left;
+    padding: 100px 30px;
+    color: #d4c8c8;
+}
+
+.index-pic {
+    background: url("../images/fitness-1882721_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
 }
