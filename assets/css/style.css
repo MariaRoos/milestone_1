@@ -4,7 +4,7 @@
 /* -----------------------------------Colours */
 
 .bg-color-banner-top {
-    background-color: #3498db;
+    background-color: #1286d3;
 }
 
 .bg-color-banner-bottom {
@@ -25,6 +25,16 @@
 
 .ui-menu-color-join {
     background-color: #5c5f89;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("../images/fitness-1882721_1920.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* -----------------------------------Special paddings/margins/text */
@@ -53,10 +63,11 @@ header {
     margin: 0;
 }
 
-
 .logo {
-    font-size: 80px;
+    font-size: 60px;
+    font-weight: 500;
     text-align: center;
+    padding-top: 10px;
     font-family: 'Lato', sans-serif;
     min-height: 120px;
     color: #d4c8c8;
@@ -140,6 +151,7 @@ footer {
 
 p span {
   display: block;
+  font-size: 15px;
 }
 
 .social-links li a i {
@@ -160,18 +172,39 @@ p span {
 /* -----------------------------------Index */
 
 .index-text {
-    font-style: italic;
-    text-align: left;
-    padding: 100px 30px;
-    color: #d4c8c8;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
-.index-pic {
-    background: url("../images/fitness-1882721_1920.jpg");
-    opacity: 0.7;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
+.index-text h1 {
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #d4c8c8;
+    -webkit-text-stroke: 1px #000000;
 }
+
+.btn-secondary {
+    margin-top: 30px;
+    background-color: #e67e22;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+/* -----------------------------------Media Queries */
+
+@media (min-width: 540px) {
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    body {
+        margin-bottom: 120px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-height: 120px;
+    }
+
