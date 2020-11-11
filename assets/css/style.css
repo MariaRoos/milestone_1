@@ -4,37 +4,39 @@
 /* -----------------------------------Colours */
 
 .bg-color-banner-top {
-    background-color: #1286d3;
+    background-color: #17021a;
 }
 
 .bg-color-banner-bottom {
-    background-color: #e67e22;
+    background-color: #17021a;
 }
 
 .ui-menu-color-home {
-    background-color: #5c5f89;
+    background-color: #e67e22;
 }
 
 .ui-menu-color-pt {
-    background-color: #5c5f89;
+    background-color: #e67e22;
 }
 
 .ui-menu-color-classes {
-    background-color: #5c5f89;
+    background-color: #e67e22;
 }
 
 .ui-menu-color-join {
-    background-color: #5c5f89;
+    background-color: #e67e22;
 }
+
+/* -----------------------------------Background */
 
 body {
     box-sizing: border-box;
-    background-image: url("../images/fitness-1882721_1920.jpg");
-    opacity: 0.9;
+    background-image: url("../images/fitness-1882721_1920_3.jpg");
+    opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right; 
 }
 
 /* -----------------------------------Special paddings/margins/text */
@@ -71,7 +73,7 @@ header {
     font-family: 'Lato', sans-serif;
     min-height: 120px;
     color: #d4c8c8;
-    background-color: #5c5f89;
+    background-color: #17021a;
 }
 
 .hvr-logo:hover {
@@ -116,7 +118,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #d4c8c8;
+    color: #4e3950;
     height: 40px;
 }
 
@@ -128,6 +130,7 @@ header {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 17px;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 
@@ -141,7 +144,7 @@ header {
 /* -----------------------------------Footer */
 
 footer {
-    background-color: #5c5f89;
+    background-color: #17021a;
     color: #d4c8c8;
     min-height: 120px;
     margin: 0;
@@ -173,25 +176,61 @@ p span {
 
 .index-text {
     margin-top: 100px;
-    margin-left: 20px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .index-text h1 {
-    font-style: italic;
     text-align: left;
     margin-bottom: 30px;
+    margin-left: 30px;
     color: #d4c8c8;
-    -webkit-text-stroke: 1px #000000;
 }
 
 .btn-secondary {
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
     background-color: #e67e22;
+    color: #17021a;
     font-weight: 600;
+    font-style: italic;
     margin-bottom: 100px;
+    border-style: none;
 }
 
-/* -----------------------------------Media Queries */
+.btn-secondary:hover {
+    background-color: #4e3950;
+}
+
+/* -----------------------------------PT */
+
+.pt-text {
+    margin: 60px 0px 30px 15px;
+    text-align: left;
+    color: #d4c8c8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pt-pricing {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #4e3950; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.price {
+    color: #e67e22;
+}
+
+.pt-text .btn-secondary {
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+/* -----------------------------------Media Queries 
+With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-the-bottom-of-the-page - Stylesheet by Máté Gregor */
 
 @media (min-width: 540px) {
     html {
@@ -206,5 +245,12 @@ p span {
         bottom: 0;
         width: 100%;
         min-height: 120px;
+    }
+}
+
+    @media only screen and (max-width: 1025px) and (min-width: 540px) {
+        .pt-pricing {
+        color: #d4c8c8;
+    }
     }
 
