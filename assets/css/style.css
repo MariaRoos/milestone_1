@@ -179,9 +179,8 @@ p span {
     font-family: 'Roboto Mono', monospace;
 }
 
-.index-text h1 {
+.index-text h2 {
     text-align: left;
-    margin-bottom: 30px;
     margin-left: 30px;
     color: #d4c8c8;
 }
@@ -204,7 +203,7 @@ p span {
 /* -----------------------------------PT */
 
 .pt-text {
-    margin: 60px 0px 30px 15px;
+    margin: 60px 0px 60px 15px;
     text-align: left;
     color: #d4c8c8;
     font-family: 'Roboto Mono', monospace;
@@ -213,20 +212,39 @@ p span {
 .pt-pricing {
     text-align: left;
     margin-left: 20px;
-    font-size: 30px;
-    font-weight: 500;
-    color: #4e3950; 
+    font-size: 20px;
+    color: #d4c8c8; 
     font-family: 'Roboto Mono', monospace;
 }
 
 .price {
     color: #e67e22;
+    font-weight: 500;
 }
 
 .pt-text .btn-secondary {
     margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 60px;
+}
+
+/* -----------------------------------Join-form */
+
+.card-body {
+    font-family: 'Roboto Mono', monospace;
+    color: #d4c8c8;
+    padding-top: 0;
+    margin: 0;
+}
+
+.form-check-label {
+    color: #d4c8c8;
+}
+
+.form-row .btn-secondary {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /* -----------------------------------Media Queries 
@@ -248,9 +266,9 @@ With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-
     }
 }
 
-    @media only screen and (max-width: 1025px) and (min-width: 540px) {
+    @media only screen and (max-width: 1024px) and (min-width: 540px) {
         .pt-pricing {
-        color: #d4c8c8;
-    }
+            padding-right: 50px;
+        }
     }
 
