@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/71475193f6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>AZ Gym</title>
@@ -45,13 +48,106 @@
         </div>
     </header>
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col ">
-                
+    <div class="accordion md-accordion accordion-3 z-depth-1-half" id="accordionEx194" role="tablist"
+    aria-multiselectable="true">
+        <h2 class="uppercase py-4 px-3">Choose a class to get to know more!</h2>
+        <hr class="mb-0">
+
+            <div class="card">
+                <div class="card-header" role="tab" id="heading4">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse4" aria-expanded="false"
+                    aria-controls="collapse4">
+                        <h3 class="mb-0">
+                            Spinning 
+                            <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+                        </h3>
+                    </a>
+                </div>
+                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4" data-parent="#accordionEx194">
+                    <div class="card-body pt-0">
+                        <p>An indoor group cycling class to upbeat music. Our spinning classes focus on either speed or endurance. 
+                        Great for weight loss, as one single class can burn up to 1000 kcal! It also increases cardiovascular 
+                        fitness. Spinning is brilliant for those looking to work up a sweat at their own pace – you can literally make 
+                        the class as easy or as difficult as you want. 
+                        It is also great for those with joint problems as it is relatively low impact.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <div class="card">
+                <div class="card-header" role="tab" id="heading5">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse5" aria-expanded="false"
+                    aria-controls="collapse5">
+                        <h3 class="mb-0">
+                            HIIT <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+                        </h3>
+                    </a>
+                </div>
+                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionEx194">
+                    <div class="card-body pt-0">
+                        <p>HIIT or high-intensity interval training, is a really time efficient workout in which you give 100% effort for 
+                        short periods of time, followed by short recovery periods. The training sessions follow a circuit taking in a range 
+                        of bodyweight, light-weight and cardio exercises. Benefits: You'll burn more fat, become stronger and improve your 
+                        agility and speed. Your heart will also become more efficient.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-header" role="tab" id="heading6">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse6" aria-expanded="false"
+                    aria-controls="collapse6">
+                    <h3 class="mb-0">
+                        Yoga <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+                    </h3>
+                    </a>
+                </div>
+                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordionEx194">
+                    <div class="card-body pt-0">
+                    <p>There is good reason that yoga has become an integral part of top athlete’s training programmes. 
+                    From rugby players to Ireland’s top hurlers, they are all at it. In essence, yoga involves a series of poses and 
+                    stretches which help you to gain strength and improve flexibility. Benefits: Increased flexibility and muscle strength, 
+                    which leads to injury prevention. Yoga is also great for the mind!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" role="tab" id="heading7">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse7" aria-expanded="false"
+                    aria-controls="collapse7">
+                    <h3 class="mb-0">
+                        Boxing <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+                    </h3>
+                    </a>
+                </div>
+                <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7" data-parent="#accordionEx194">
+                    <div class="card-body pt-0">
+                    <p>Our gym-based boxing workout includes pad work, bag work and some boxing-specific strength and conditioning routines.
+                    Benefits: Burns fat fast and improves cardiovascular fitness as well as core strength. You'll also become stronger and more
+                    explosive. Furthermore, boxing is a great way to relieve stress.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" role="tab" id="heading8">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx194" href="#collapse8" aria-expanded="false"
+                    aria-controls="collapse8">
+                    <h3 class="mb-0">
+                        Abs Class <div class="animated-icon1 float-right mt-1"><span></span><span></span><span></span></div>
+                    </h3>
+                    </a>
+                </div>
+                <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8" data-parent="#accordionEx194">
+                    <div class="card-body pt-0">
+                    <p>Our Abs Class is a great way of building core strength and core stability. The class is short and painful, taking in a 
+                    wide range of core exercises from sit-ups to plank and everything in between. Benefits: A strong core helps prevent injury,
+                    improves posture and eliminates back pain.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
 
     <footer class="container-fluid">
         <div class="row">

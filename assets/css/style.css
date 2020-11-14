@@ -228,7 +228,8 @@ p span {
     margin-bottom: 60px;
 }
 
-/* -----------------------------------Join-form */
+/* -----------------------------------Join-form 
+Template taken from https://bootsnipp.com/snippets/yN1EV */
 
 .card-body {
     font-family: 'Roboto Mono', monospace;
@@ -245,6 +246,36 @@ p span {
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+/* ----------------------------------- Classes Menu 
+Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/#accordion */
+
+.accordion {
+    margin: 60px 0px 60px 20px;
+}
+
+.accordion h2 {
+    
+    text-align: left;
+    color: #d4c8c8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card {
+    margin: 0px 20px 0px 20px;
+    background: transparent;
+    border: none;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card-header h3 {
+    text-align: left;
+    color: #e67e22; 
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* -----------------------------------Media Queries 
