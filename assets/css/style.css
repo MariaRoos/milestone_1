@@ -4,11 +4,11 @@
 /* -----------------------------------Colours */
 
 .bg-color-banner-top {
-    background-color: #17021a;
+    background-color: #291E29;
 }
 
 .bg-color-banner-bottom {
-    background-color: #17021a;
+    background-color: #291E29;
 }
 
 .ui-menu-color-home {
@@ -33,6 +33,7 @@ body {
     box-sizing: border-box;
     background-image: url("../images/fitness-1882721_1920_3.jpg");
     opacity: 0.8;
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,11 +74,11 @@ header {
     font-family: 'Lato', sans-serif;
     min-height: 120px;
     color: #d4c8c8;
-    background-color: #17021a;
+    background-color: #291E29;
 }
 
 .hvr-logo:hover {
-    color: #4e3950;
+    color: #e67e22;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -118,7 +119,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #4e3950;
+    color: #291E29;
     height: 40px;
 }
 
@@ -144,7 +145,7 @@ header {
 /* -----------------------------------Footer */
 
 footer {
-    background-color: #17021a;
+    background-color: #291E29;
     color: #d4c8c8;
     min-height: 120px;
     margin: 0;
@@ -169,7 +170,7 @@ p span {
 }
 
 .social-links li a i:hover {
-    color: #4e3950;
+    color: #e67e22;
 }
 
 /* -----------------------------------Index */
@@ -294,6 +295,9 @@ With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-
         bottom: 0;
         width: 100%;
         min-height: 120px;
+    }
+    .card {
+        width: 50%;
     }
 }
 
