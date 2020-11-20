@@ -33,11 +33,10 @@ body {
     box-sizing: border-box;
     background-image: url("../images/fitness-1882721_1920_3.jpg");
     opacity: 0.8;
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right; 
+    background-position: center; 
 }
 
 /* -----------------------------------Special paddings/margins/text */
