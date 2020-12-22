@@ -209,6 +209,7 @@ p span {
 .pt-heading {
     margin: 60px 0px 60px 15px;
     text-align: left;
+    color: #e67e22;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -216,6 +217,7 @@ p span {
     margin-bottom: 65px;
     font-style: italic;
     text-align: center;
+    color: #291E29;
 }
 
 .block-divider {
@@ -228,6 +230,7 @@ p span {
 .pt-pricing {
     text-align: center;
     font-size: 20px; 
+    color: #291E29;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -274,7 +277,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 .accordion h2 {
     
     text-align: left;
-    color: #d4c8c8;
+    color: #291E29;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -292,6 +295,10 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
     text-align: left;
     color: #e67e22; 
     font-family: 'Roboto Mono', monospace;
+}
+
+.card-body p {
+    color: #291E29;
 }
 
 /* -----------------------------------Media Queries 
