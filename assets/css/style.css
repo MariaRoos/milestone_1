@@ -29,7 +29,7 @@
 
 /* -----------------------------------Background */
 
-body {
+.background {
     box-sizing: border-box;
     background-image: url("../images/fitness-1882721_1920_3.jpg");
     opacity: 0.8;
