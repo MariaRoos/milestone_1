@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap:100,200,300,400,500,600,700');
 
-/* -----------------------------------Colours */
+/* -----------------------------------Menu colours */
 
 .bg-color-banner-top {
     background-color: #291E29;
@@ -27,9 +27,9 @@
     background-color: #e67e22;
 }
 
-/* -----------------------------------Background */
+/* -----------------------------------Backgrounds */
 
-.background {
+.background1 {
     box-sizing: border-box;
     background-image: url("../images/fitness-1882721_1920_3.jpg");
     opacity: 0.8;
@@ -39,13 +39,17 @@
     background-position: center; 
 }
 
+.background2 {
+    background-color: #fafafa;
+}
+
 /* -----------------------------------Special paddings/margins/text */
 
 h1,
 h2,
 h3,
 h4,
-h6, {
+h6 {
     margin: 0;
 }
 
@@ -202,18 +206,27 @@ p span {
 
 /* -----------------------------------PT */
 
-.pt-text {
+.pt-heading {
     margin: 60px 0px 60px 15px;
     text-align: left;
-    color: #d4c8c8;
     font-family: 'Roboto Mono', monospace;
 }
 
+.pt-reviews {
+    margin: 0px 0px 60px 15px;
+    font-style: italic;
+}
+
+.block-divider {
+    width: 5px;
+    height: 5px;
+    border: 0;
+    background-color: #e67e22;
+}
+
 .pt-pricing {
-    text-align: left;
-    margin-left: 20px;
-    font-size: 20px;
-    color: #d4c8c8; 
+    text-align: center;
+    font-size: 20px; 
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -223,9 +236,9 @@ p span {
 }
 
 .pt-text .btn-secondary {
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 60px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 /* -----------------------------------Join-form 
@@ -299,10 +312,4 @@ With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-
         width: 50%;
     }
 }
-
-    @media only screen and (max-width: 1024px) and (min-width: 540px) {
-        .pt-pricing {
-            padding-right: 50px;
-        }
-    }
 
