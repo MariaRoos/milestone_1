@@ -289,7 +289,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 }
 
 .card-header {
-    background-color: transparent;
+    background-color: #fafafa;
     border-bottom: none;
 }
 
@@ -301,6 +301,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .card-body-p {
     color: #291E29;
+    background-color: #fafafa;
 }
 
 .mb-0 {
