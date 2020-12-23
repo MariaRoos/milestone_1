@@ -31,7 +31,7 @@
 
 .background1 {
     box-sizing: border-box;
-    background-image: url("../images/fitness-1882721_1920_3.jpg");
+    background-image: url("../images/fitness-1882721_1920_3.jpg"); /* Picture taken from https://wallpaperaccess.com/4k-fitness */
     opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,7 +275,6 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 }
 
 .accordion h2 {
-    
     text-align: left;
     color: #291E29;
     font-family: 'Roboto Mono', monospace;
@@ -309,6 +308,17 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
     border: none;
 }
 
+.classes-picture {
+    background-image: url("../images/4206874.jpg"); /* Picture taken from https://wallpaperaccess.com/boxing-training */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.classes-padding {
+    padding: 0px;
+}
+
 /* -----------------------------------Media Queries 
 With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-the-bottom-of-the-page - Stylesheet by Máté Gregor */
 
@@ -325,8 +335,5 @@ With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-
         bottom: 0;
         width: 100%;
         min-height: 120px;
-    }
-    .card {
-        width: 50%;
     }
 }
