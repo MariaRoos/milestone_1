@@ -134,7 +134,7 @@ header {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 3px;
 }
 
@@ -283,7 +283,6 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .card {
     border: none;
-    flex-direction: row;
 }
 
 .card a:hover {
@@ -329,12 +328,5 @@ With help from https://stackoverflow.com/questions/40853952/bootstrap-footer-at-
     }
     .card {
         width: 50%;
-    }
-}
-
-@media (max-width: 768px) {
-    .card {
-        flex-direction: column;
-        border: none;
     }
 }
