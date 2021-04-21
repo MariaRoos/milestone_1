@@ -182,7 +182,7 @@ p span {
     margin-left: 30px;
     margin-top: 80px;
     background-color: #7395ae;
-    color: #17021a;
+    color: #291e29;
     font-weight: 600;
     font-style: italic;
     margin-bottom: 100px;
@@ -198,8 +198,12 @@ p span {
 .pt-heading {
     margin: 60px 0px 60px 15px;
     text-align: left;
-    color: #e67e22;
     font-family: 'Roboto Mono', monospace;
+    color: #291e29;
+}
+
+.pt {
+    color: #7395ae;
 }
 
 .pt-reviews {
@@ -213,7 +217,7 @@ p span {
     width: 5px;
     height: 5px;
     border: 0;
-    background-color: #e67e22;
+    background-color: #7395ae;
 }
 
 .pt-pricing {
@@ -284,7 +288,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .card-header h3 {
     text-align: left;
-    color: #e67e22; 
+    color: #291e29; 
     font-family: 'Roboto Mono', monospace;
 }
 
