@@ -11,27 +11,15 @@
     background-color: #291E29;
 }
 
-.ui-menu-color-home {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-pt {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-classes {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-contact {
-    background-color: #e67e22;
+.ui-menu-color {
+    background-color: #7395ae;
 }
 
 /* -----------------------------------Backgrounds */
 
 .background1 {
     box-sizing: border-box;
-    background-image: url("../images/fitness-1882721_1920_3.jpg"); /* Picture taken from https://wallpaperaccess.com/4k-fitness */
+    background-image: url("../images/834269.jpg"); /* Picture taken from https://wallpaperaccess.com/4k-fitness */
     opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +28,7 @@
 }
 
 .background2 {
-    background-color: #fafafa;
+    background-color: #e3e2df;
 }
 
 /* -----------------------------------Special paddings/margins/text */
@@ -76,12 +64,12 @@ header {
     padding-top: 10px;
     font-family: 'Lato', sans-serif;
     min-height: 120px;
-    color: #e67e22;
-    background-color: #291E29;
+    color: #291E29;
+    background-color: #7395ae;
 }
 
 .hvr-logo:hover {
-    color: #d4c8c8;
+    color: #e3e2df;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -141,19 +129,20 @@ header {
 /* -----------------------------------Hover */
 
 .hvr-fade:hover {
-    background-color: #4e3950;
+    background-color: #291E29;
     height: 40px;
 }
 
 /* -----------------------------------Footer */
 
 footer {
-    background-color: #291E29;
-    color: #d4c8c8;
+    background-color: #7395ae;
+    color: #e3e2df;
     min-height: 120px;
     margin: 0;
     padding-top: 20px;
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
 
 p span {
@@ -165,7 +154,7 @@ p span {
     width: 25px;
     padding-top: 15px;
     font-size: 15px;
-    color: #d4c8c8;
+    color: #e3e2df;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -173,7 +162,7 @@ p span {
 }
 
 .social-links li a i:hover {
-    color: #e67e22;
+    color: #291E29;
 }
 
 /* -----------------------------------Index */
@@ -186,13 +175,13 @@ p span {
 .index-text h2 {
     text-align: left;
     margin-left: 30px;
-    color: #d4c8c8;
+    color: #e3e2df;
 }
 
 .btn-secondary {
     margin-left: 30px;
     margin-top: 80px;
-    background-color: #e67e22;
+    background-color: #7395ae;
     color: #17021a;
     font-weight: 600;
     font-style: italic;
@@ -201,7 +190,7 @@ p span {
 }
 
 .btn-secondary:hover {
-    background-color: #4e3950;
+    background-color: #291E29;
 }
 
 /* -----------------------------------PT */
@@ -252,13 +241,13 @@ Template taken from https://bootsnipp.com/snippets/yN1EV */
 
 .card-body {
     font-family: 'Roboto Mono', monospace;
-    color: #d4c8c8;
+    color: #e3e2df;
     padding-top: 0;
     margin: 0;
 }
 
 .form-check-label {
-    color: #d4c8c8;
+    color: #e3e2df;
 }
 
 .form-row .btn-secondary {
@@ -289,7 +278,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 }
 
 .card-header {
-    background-color: #fafafa;
+    background-color: #e3e2df;
     border-bottom: none;
 }
 
@@ -301,7 +290,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .card-body-p {
     color: #291E29;
-    background-color: #fafafa;
+    background-color: #e3e2df;
 }
 
 .mb-0 {

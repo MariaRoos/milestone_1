@@ -22,5 +22,3 @@ https://github.com/MariaRoos/milestone_1.git
 
     ###Media
 
-    ###Acknowledgements
-
