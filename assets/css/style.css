@@ -126,8 +126,6 @@ header {
     letter-spacing: 3px;
 }
 
-/* -----------------------------------Hover */
-
 .hvr-fade:hover {
     background-color: #291E29;
     height: 40px;
@@ -284,7 +282,13 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 }
 
 .card a:hover {
+    text-decoration: none; 
+}
+
+.card h3:hover {
+    color: #7395ae;
     text-decoration: none;
+    font-weight: bold;    
 }
 
 .card-header {
