@@ -51,7 +51,8 @@ h6 {
     display: inline-block;
 }
 
-/* -----------------------------------Heading */
+/* -----------------------------------Heading 
+(Inspired by Code Institute's CV-homepage tutorial project) */
 
 header {
     margin: 0;
@@ -68,7 +69,7 @@ header {
     background-color: #7395ae;
 }
 
-.hvr-logo:hover {
+.hvr-logo:hover {  
     color: #e3e2df;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
@@ -128,6 +129,7 @@ header {
 
 .hvr-fade:hover {
     background-color: #291E29;
+    color: #e3e2df;
     height: 40px;
 }
 
@@ -181,6 +183,8 @@ p span {
     font-weight: bold;
 }
 
+/* -----------------------------------Buttons */
+
 .btn-secondary {
     margin-left: 30px;
     margin-top: 80px;
@@ -190,10 +194,12 @@ p span {
     font-style: italic;
     margin-bottom: 100px;
     border-style: none;
+    border-radius: 50px;
 }
 
 .btn-secondary:hover {
     background-color: #291E29;
+    color: #e3e2df;
 }
 
 /* -----------------------------------PT */
@@ -232,7 +238,7 @@ p span {
 }
 
 .price {
-    color: #e67e22;
+    color: #fc4445;
     font-weight: 500;
 }
 
@@ -240,8 +246,7 @@ p span {
     margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 70px;
-    font-style: normal;
-    font-weight: normal;
+    opacity: 0.8; 
 }
 
 /* -----------------------------------Contact-form 
