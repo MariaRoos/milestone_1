@@ -178,6 +178,11 @@ p span {
     color: #e3e2df;
 }
 
+.gym {
+    color: #291e29;
+    font-weight: bold;
+}
+
 .btn-secondary {
     margin-left: 30px;
     margin-top: 80px;
@@ -204,6 +209,7 @@ p span {
 
 .pt {
     color: #7395ae;
+    font-weight: bold;
 }
 
 .pt-reviews {
@@ -290,6 +296,11 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
     text-align: left;
     color: #291e29; 
     font-family: 'Roboto Mono', monospace;
+}
+
+.class {
+    color: #7395ae;
+    font-weight: bold;
 }
 
 .card-body-p {
