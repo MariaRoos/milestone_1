@@ -52,7 +52,7 @@ h6 {
 }
 
 /* -----------------------------------Heading 
-(Inspired by Code Institute's CV-homepage tutorial project) */
+(Inspired by User Centric Frontend Development/Mini Project with Bootstrap 4) */
 
 header {
     margin: 0;
@@ -243,7 +243,7 @@ p span {
 }
 
 .pt-text .btn-secondary {
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 30px;
     margin-bottom: 70px;
     opacity: 0.8; 
