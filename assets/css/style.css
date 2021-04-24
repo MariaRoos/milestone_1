@@ -4,11 +4,11 @@
 /* -----------------------------------Menu colours */
 
 .bg-color-banner-top {
-    background-color: #291E29;
+    background-color: #4e6f87;
 }
 
 .bg-color-banner-bottom {
-    background-color: #291E29;
+    background-color: #4e6f87;
 }
 
 .ui-menu-color {
@@ -20,7 +20,6 @@
 .background1 {
     box-sizing: border-box;
     background-image: url("../images/834269.jpg"); /* Picture taken from https://wallpaperaccess.com/4k-fitness */
-    opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -65,7 +64,7 @@ header {
     padding-top: 10px;
     font-family: 'Lato', sans-serif;
     min-height: 120px;
-    color: #291E29;
+    color: #324757;
     background-color: #7395ae;
 }
 
@@ -111,7 +110,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #291E29;
+    color: #324757;
     height: 40px;
 }
 
@@ -128,7 +127,7 @@ header {
 }
 
 .hvr-fade:hover {
-    background-color: #291E29;
+    background-color: #4e6f87;
     color: #e3e2df;
     height: 40px;
 }
@@ -162,7 +161,7 @@ p span {
 }
 
 .social-links li a i:hover {
-    color: #291E29;
+    color: #324757;
 }
 
 /* -----------------------------------Index */
@@ -179,8 +178,7 @@ p span {
 }
 
 .gym {
-    color: #291e29;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* -----------------------------------Buttons */
@@ -189,7 +187,7 @@ p span {
     margin-left: 30px;
     margin-top: 80px;
     background-color: #7395ae;
-    color: #291e29;
+    color: #324757;
     font-weight: 600;
     font-style: italic;
     margin-bottom: 100px;
@@ -198,7 +196,7 @@ p span {
 }
 
 .btn-secondary:hover {
-    background-color: #291E29;
+    background-color: #324757;
     color: #e3e2df;
 }
 
@@ -208,7 +206,7 @@ p span {
     margin: 60px 0px 60px 15px;
     text-align: left;
     font-family: 'Roboto Mono', monospace;
-    color: #291e29;
+    color: #324757;
 }
 
 .pt {
@@ -220,7 +218,7 @@ p span {
     margin-bottom: 65px;
     font-style: italic;
     text-align: center;
-    color: #291E29;
+    color: ;
 }
 
 .block-divider {
@@ -233,7 +231,7 @@ p span {
 .pt-pricing {
     text-align: center;
     font-size: 15px; 
-    color: #291E29;
+    color: ;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -246,7 +244,6 @@ p span {
     margin-left: 5px;
     margin-top: 30px;
     margin-bottom: 70px;
-    opacity: 0.8; 
 }
 
 /* -----------------------------------Contact-form 
@@ -278,7 +275,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .accordion h2 {
     text-align: left;
-    color: #291E29;
+    color: ;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -303,7 +300,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 
 .card-header h3 {
     text-align: left;
-    color: #291e29; 
+    color: black; 
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -313,7 +310,7 @@ Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-men
 }
 
 .card-body-p {
-    color: #291E29;
+    color: black;
     background-color: #e3e2df;
 }
 
