@@ -202,7 +202,7 @@ p span {
 
 /* -----------------------------------PT */
 
-.pt-heading {
+.pt-classes-heading {
     margin: 60px 0px 60px 15px;
     text-align: left;
     font-family: 'Roboto Mono', monospace;
@@ -269,61 +269,16 @@ Template taken from https://bootsnipp.com/snippets/yN1EV */
 /* ----------------------------------- Classes Menu 
 Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/#accordion */
 
-.accordion {
-    margin: 60px 0px 60px 20px;
-}
-
-.accordion h2 {
-    text-align: left;
-    color: ;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.card {
-    border: none;
-}
-
-.card a:hover {
-    text-decoration: none; 
-}
-
-.card h3:hover {
-    color: #7395ae;
-    text-decoration: none;
-    font-weight: bold;    
-}
-
-.card-header {
-    background-color: #e3e2df;
-    border-bottom: none;
-}
-
-.card-header h3 {
-    text-align: left;
-    color: black; 
-    font-family: 'Roboto Mono', monospace;
-}
-
 .class {
     color: #7395ae;
     font-weight: bold;
-}
-
-.card-body-p {
-    color: black;
-    background-color: #e3e2df;
-}
-
-.mb-0 {
-    color: #fafafa;
-    border: none;
 }
 
 .classes-picture {
     background-image: url("../images/4206874.jpg"); /* Picture taken from https://wallpaperaccess.com/boxing-training */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: right; 
 }
 
 .classes-padding {
