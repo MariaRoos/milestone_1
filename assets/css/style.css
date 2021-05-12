@@ -177,7 +177,7 @@ p span {
     color: #e3e2df;
 }
 
-.gym {
+.gym-word {
     font-weight: bolder;
 }
 
@@ -215,10 +215,10 @@ p span {
 }
 
 .pt-reviews {
-    margin-bottom: 65px;
+    margin-top: 65px;
+    margin-bottom: 50px;
     font-style: italic;
     text-align: center;
-    color: ;
 }
 
 .block-divider {
@@ -231,7 +231,6 @@ p span {
 .pt-pricing {
     text-align: center;
     font-size: 15px; 
-    color: ;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -244,6 +243,26 @@ p span {
     margin-left: 5px;
     margin-top: 30px;
     margin-bottom: 70px;
+}
+
+/* ----------------------------------- Classes */
+
+.class-word {
+    color: #7395ae;
+    font-weight: bold;
+}
+
+.classes-picture {
+    background-image: url("../images/4206874.jpg"); /* Picture taken from https://wallpaperaccess.com/boxing-training */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.classes-names {
+    font-family: 'Roboto Mono', monospace;
+    color: #7395ae;
+    font-weight: bold;
 }
 
 /* -----------------------------------Contact-form 
@@ -264,25 +283,6 @@ Template taken from https://bootsnipp.com/snippets/yN1EV */
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 30px;
-}
-
-/* ----------------------------------- Classes Menu 
-Template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/#accordion */
-
-.class {
-    color: #7395ae;
-    font-weight: bold;
-}
-
-.classes-picture {
-    background-image: url("../images/4206874.jpg"); /* Picture taken from https://wallpaperaccess.com/boxing-training */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right; 
-}
-
-.classes-padding {
-    padding: 0px;
 }
 
 /* -----------------------------------Media Queries 
