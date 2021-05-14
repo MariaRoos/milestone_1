@@ -1,19 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap:100,200,300,400,500,600,700');
 
-/* -----------------------------------Menu colours */
 
-.bg-color-banner-top {
-    background-color: #4e6f87;
-}
-
-.bg-color-banner-bottom {
-    background-color: #4e6f87;
-}
-
-.ui-menu-color {
-    background-color: #7395ae;
-}
 
 /* -----------------------------------Backgrounds */
 
@@ -50,86 +38,42 @@ h6 {
     display: inline-block;
 }
 
-/* -----------------------------------Heading 
-(Inspired by User Centric Frontend Development/Mini Project with Bootstrap 4) */
+/* -----------------------------------Navbar */
 
-header {
-    margin: 0;
+.navbar {
+    height: 120px;
 }
 
-.logo {
-    font-size: 60px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 10px;
-    font-family: 'Lato', sans-serif;
-    min-height: 120px;
-    color: #324757;
+.navbar-light {
     background-color: #7395ae;
 }
 
-.hvr-logo:hover {  
-    color: #e3e2df;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.banner-top {
-    height: 40px;
-}
-
-.banner-bottom {
-    height: 40px;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav {
-    margin-bottom: 0px;
-}
-
-#nav li {
-    padding: 0;
-}
-
-.menuitem {
-    height: 40px;
-    text-align: center;
-    padding: 0px;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #324757;
-    height: 40px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 6px;
+.navbar-brand {
+    font-size: 60px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 500;
-    letter-spacing: 3px;
+    min-height: 120px;
+    color: #324757;
 }
 
-.hvr-fade:hover {
-    background-color: #4e6f87;
-    color: #e3e2df;
-    height: 40px;
+.navbar-brand:hover {
+    color: #e3e2df !important;
+}
+
+.nav-item a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    
+}
+
+.navbar-nav li a {
+    color: #324757 !important;
+}
+
+.navbar-nav li a:hover {
+    opacity: 0.5;
 }
 
 /* -----------------------------------Footer */
